@@ -18,5 +18,3 @@ DB_CONFIG = {
         'password': os.getenv("POSTGRES_PASSWORD"),
         'database': os.getenv("POSTGRES_DATABASE"),
     }
-
-logger.debug(DB_CONFIG)
