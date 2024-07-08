@@ -1,5 +1,5 @@
 import os
-
+from .logging import logger
 
 BASE_PREFIX = os.getenv("BASE_PREFIX")
 PORT = int(os.getenv("PORT"))
@@ -18,3 +18,5 @@ DB_CONFIG = {
         'password': os.getenv("POSTGRES_PASSWORD"),
         'database': os.getenv("POSTGRES_DB"),
     }
+
+logger.debug(DB_CONFIG)
