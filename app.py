@@ -41,4 +41,4 @@ app.include_router(news_router, prefix=BASE_PREFIX)
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=PORT)  # dev 6003, test 6002, prod 6001
+    uvicorn.run(app, host="0.0.0.0")  # dev 6003, test 6002, prod 6001
