@@ -9,6 +9,10 @@ loguru = "*"
 aiohttp = "*"
 aiomysql = "*"
 asyncpg = "*"
+pyjwt = "*"
+ctrader-open-api = "*"
+service-identity = "*"
+twisted = "*"
 
 [dev-packages]
 
